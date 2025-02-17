@@ -122,7 +122,7 @@ header .shadow{
 /* About Section */
 .about {
     padding: 50px 10%;
-    background-color: #f8f9fa; /* Light background for contrast */
+    background-color: #ffffff; /* Light background for contrast */
 }
 
 .about-title {
@@ -260,28 +260,27 @@ header .shadow{
     text-align: center;
     font-size: 36px;
 }
-
 .sponsor-content{
     display: flex;
     width: 100%;
-    padding:50px 0;
-    background-color: rgb(243, 243, 243);
+    padding:5px 0;
+    background-color: rgb(255, 255, 255);
 }
 
 .sponsor-left{
-    flex:1;
+    flex:1.5;
     text-align: left;
-    margin-left: 15rem;
+    margin-left: 5rem;
 }
 
 .sponsor-right{
-    flex:3;
+    flex:2.5;
     text-align: left;
-    margin-left: -4rem;
+    margin-left: 3rem;
 }
 
 .organize, .collab{
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
 }
 .sponsor-img{
@@ -289,28 +288,18 @@ header .shadow{
     display: flex;
     flex-wrap: wrap;
 }
-.sponsor-logo1 {
-    margin-top: -2rem;
-    margin-left: -1rem;
-    max-width: 200px;
-    height: auto;
+
+.footer-logos {
+    text-align: center; /* Center the image */
+    padding: 5px 0;
 }
-.sponsor-logo2 {
-    max-width: 200px;
-    height: auto;
-    margin-top: 1rem;
+
+.footer-logos img {
+    max-width: 80%;  /* Adjust width relative to screen */
+    height: auto;     /* Maintain aspect ratio */
+    max-height: 150px; /* Limit height */
 }
-.sponsor-logo3 {
-    max-width: 300px;
-    height: auto;
-    margin-top: 1rem;
-}
-.sponsor-logo4 {
-    max-width: 160px;
-    height: auto;
-    margin-top: -1.5rem;
-    margin-left: -2rem;
-}
+
 /*Making responsive*/
 @media (max-width:1100px){
     header{
@@ -466,51 +455,3 @@ header .shadow{
         font-size: 0.9rem;
     }
 }
-
-/*
-}.about-tile h2{
-    font-size: 1rem;
-    font-weight: 500;
-}
-.about section{
-    align-items: left;
-    gap: 1rem; /* Adds space between image & text 
-    max-width: 900px; /* Prevents text from stretching too wide 
-    text-align: left;
-}
-.about-img{
-    width: 150px;
-    height: 150px;
-    margin-top: 2rem;
-}
-.about-img img{
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: center;
-    background: var(--main-color);
-}
-.past-year{
-    display: flex;
-    align-items: center;
-    margin-top: 1rem;
-}
-.past-year a{
-    display:inline-block;
-    background: var(--main-color);
-    color: white;
-    font-weight: 500;
-    margin-right: 4rem;
-    padding: 3px;
-}
-.past-year a:hover{
-    background: var(--main-color);
-    color: white;
-    letter-spacing: 2px;
-    transition: 0.2s;
-}
-.about-text p{
-    text-align: justify;
-    margin-bottom: 1rem;
-}*/

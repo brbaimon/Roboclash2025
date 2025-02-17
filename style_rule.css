@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    list-style: none;
+    text-decoration: none;
+    box-sizing:border-box ;
+    font-family: "Poppins", serif;
+}
+:root{
+    --main-color:rgb(60, 7, 113);
+    --text-color:black;
+}
+section{
+    padding: 50px 10%;
+}
+img{
+    width: 100%;
+}
+body{
+    color: var(--text-color)
+}
+*::selection{
+    color: white;
+    background: var(--main-color);
+}
+/*custom scroll bar*/
+html::-webkit-scrollbar{
+    width: 0.5px;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: var(--main-color);
+    border-radius: 5rem;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 18px 5%;
+    transition: 0.2s;
+}
+header .shadow{
+    box-shadow: 0 0 4px rgb(14 55 44 / 15%); 
+}
+.logo {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--main-color)
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+.navbar a:hover{
+    background: var(--main-color);
+    color: white;
+}
+#menu-icon{
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none
+}
+section h1{
+    margin-top: 4rem;
+    font-size: 36px;
+    margin-bottom: 2rem;
+}
+iframe{
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+}
+.sponsor-content{
+    display: flex;
+    width: 100%;
+    padding:50px 0;
+    background-color: rgb(243, 243, 243);
+}
+
+.sponsor-left{
+    flex:1;
+    text-align: left;
+    margin-left: 15rem;
+}
+
+.sponsor-right{
+    flex:3;
+    text-align: left;
+    margin-left: -4rem;
+}
+
+.organize, .collab{
+    font-size: 22px;
+    font-weight: bold;
+}
+.sponsor-img{
+    gap: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sponsor-logo1 {
+    margin-top: -2rem;
+    margin-left: -1rem;
+    max-width: 200px;
+    height: auto;
+}
+.sponsor-logo2 {
+    max-width: 200px;
+    height: auto;
+    margin-top: 1rem;
+}
+.sponsor-logo3 {
+    max-width: 300px;
+    height: auto;
+    margin-top: 1rem;
+}
+.sponsor-logo4 {
+    max-width: 160px;
+    height: auto;
+    margin-top: -1.5rem;
+    margin-left: -2rem;
+}

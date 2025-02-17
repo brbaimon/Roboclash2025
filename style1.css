@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    list-style: none;
+    text-decoration: none;
+    box-sizing:border-box ;
+    font-family: "Poppins", serif;
+}
+:root{
+    --main-color:rgb(60, 7, 113);
+    --text-color:black;
+}
+section{
+    padding: 50px 10%;
+}
+img{
+    width: 100%;
+}
+body{
+    color: var(--text-color)
+}
+*::selection{
+    color: white;
+    background: var(--main-color);
+}
+/*custom scroll bar*/
+html::-webkit-scrollbar{
+    width: 0.5px;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: var(--main-color);
+    border-radius: 5rem;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 18px 5%;
+    transition: 0.2s;
+}
+.logo {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--main-color)
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+.navbar a:hover{
+    background: var(--main-color);
+    color: white;
+}
+#menu-icon{
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none
+}
+.competition {
+    margin-top: 100px;
+    text-align: left;
+    padding: 50px;
+    background-color: #f8f9fa;
+}
+
+.competition-title h1 {
+    font-size: 2.5rem;
+    color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.competition-content p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.register-btn {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.register-btn a {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-btn a:hover {
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+.competition-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 4rem;
+    max-width: 1300px;
+    margin-left: 3rem;
+    margin-top: 4rem;
+}
+.competition-image{
+    flex:1
+}
+.competition-image img{
+    width: 100%;
+    height: auto;
+}
+.competition-text{
+    flex:1.2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: none;
+}
+.competition-text h1 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 1rem;
+}
+.competition-text p {
+    text-align: left;
+    font-size: 20px;
+    margin:0;
+    line-height: 2rem;
+}
+.competition-text p strong{
+    font-weight: bold;
+}
+.competition-text p br{
+    display: inline;
+}
+
+#list{
+    text-align: left;
+    line-height: 2rem;
+    font-size: 18px;
+}
+#remark{
+    font-size: 14px;
+}
+.sponsor-content{
+    display: flex;
+    width: 100%;
+    padding:50px 0;
+    background-color: rgb(243, 243, 243);
+}
+.sponsor-left{
+    flex:1;
+    text-align: left;
+    margin-left: 15rem;
+}
+
+.sponsor-right{
+    flex:3;
+    text-align: left;
+    margin-left: -4rem;
+}
+
+.organize, .collab{
+    font-size: 22px;
+    font-weight: bold;
+}
+.sponsor-img{
+    gap: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sponsor-logo1 {
+    margin-top: -2rem;
+    margin-left: -1rem;
+    max-width: 200px;
+    height: auto;
+}
+.sponsor-logo2 {
+    max-width: 200px;
+    height: auto;
+    margin-top: 1rem;
+}
+.sponsor-logo3 {
+    max-width: 300px;
+    height: auto;
+    margin-top: 1rem;
+}
+.sponsor-logo4 {
+    max-width: 160px;
+    height: auto;
+    margin-top: -1.5rem;
+    margin-left: -2rem;
+}
+/* Add media queries for responsiveness */
+@media (max-width: 1200px) {
+    .competition-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .competition-image {
+        margin-bottom: 20px;
+    }
+
+    .competition-text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 11px 4%;
+    }
+    #menu-icon {
+        display: initial;
+    }
+    .navbar{
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: white;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+        flex-direction: column;
+        text-align: left;
+    }
+    .navbar.active {
+        display: flex;
+    }
+    .navbar a {
+        padding: 1rem;
+        border-left: 2px solid var(--main-color);
+        margin: 1rem;
+        display: block;
+    }
+    .navbar a:hover {
+        color: white;
+        background: var(--main-color);
+        border: none;
+    }
+    .competition-title h1 {
+        font-size: 2rem;
+    }
+
+    .competition-content p {
+        font-size: 1rem;
+    }
+    #list{
+        font-size: 16px;
+    }
+
+    .register-btn a {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .competition-title h1 {
+        font-size: 1.5rem;
+    }
+
+    .competition-content p, #list {
+        font-size: 0.9rem;
+    }
+
+    .register-btn a {
+        padding: 6px 12px;
+    }
+}

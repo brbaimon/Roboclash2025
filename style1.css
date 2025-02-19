@@ -166,23 +166,24 @@ header{
 .sponsor-content{
     display: flex;
     width: 100%;
-    padding:50px 0;
-    background-color: rgb(243, 243, 243);
+    padding:5px 0;
+    background-color: rgb(255, 255, 255);
 }
+
 .sponsor-left{
-    flex:1;
+    flex:1.5;
     text-align: left;
-    margin-left: 15rem;
+    margin-left: 5rem;
 }
 
 .sponsor-right{
-    flex:3;
+    flex:2.5;
     text-align: left;
-    margin-left: -4rem;
+    margin-left: 3rem;
 }
 
 .organize, .collab{
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
 }
 .sponsor-img{
@@ -190,27 +191,16 @@ header{
     display: flex;
     flex-wrap: wrap;
 }
-.sponsor-logo1 {
-    margin-top: -2rem;
-    margin-left: -1rem;
-    max-width: 200px;
-    height: auto;
+
+.footer-logos {
+    text-align: center; /* Center the image */
+    padding: 5px 0;
 }
-.sponsor-logo2 {
-    max-width: 200px;
-    height: auto;
-    margin-top: 1rem;
-}
-.sponsor-logo3 {
-    max-width: 300px;
-    height: auto;
-    margin-top: 1rem;
-}
-.sponsor-logo4 {
-    max-width: 160px;
-    height: auto;
-    margin-top: -1.5rem;
-    margin-left: -2rem;
+
+.footer-logos img {
+    max-width: 80%;  /* Adjust width relative to screen */
+    height: auto;     /* Maintain aspect ratio */
+    max-height: 150px; /* Limit height */
 }
 /* Add media queries for responsiveness */
 @media (max-width: 1200px) {

@@ -15,6 +15,7 @@
 }
 section{
     padding: 50px 10%;
+    background-color: #f8f9fa; 
 }
 img{
     width: 100%;
@@ -56,13 +57,19 @@ header .shadow{
 .logo {
     font-size: 1.1rem;
     font-weight: 600;
-    color: var(--main-color)
+    color: var(--main-color);
+    height:2.5rem;
+    margin-left: -3rem;
+}
+.logo img{
+    height: 120px;
+    margin-top:-2.75rem;
 }
 .navbar{
     display: flex;
 }
 .navbar a{
-    font-size: 1rem;
+    font-size: 16px;
     padding: 10px 20px;
     color: var(--text-color);
     font-weight: 500;
@@ -78,9 +85,14 @@ header .shadow{
     display: none
 }
 section h1{
+    font-size: 2.5rem;
+    color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+    display: inline-block;
+    padding-bottom: 5px;
     margin-top: 4rem;
-    font-size: 36px;
     margin-bottom: 2rem;
+    align-items: center;
 }
 iframe{
     align-items: center;

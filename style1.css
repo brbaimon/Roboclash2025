@@ -53,13 +53,19 @@ header{
 .logo {
     font-size: 1.1rem;
     font-weight: 600;
-    color: var(--main-color)
+    color: var(--main-color);
+    height:2.5rem;
+    margin-left: -3rem;
+}
+.logo img{
+    height: 120px;
+    margin-top:-2.75rem;
 }
 .navbar{
     display: flex;
 }
 .navbar a{
-    font-size: 1rem;
+    font-size: 16px;
     padding: 10px 20px;
     color: var(--text-color);
     font-weight: 500;
@@ -76,7 +82,7 @@ header{
 }
 .competition {
     margin-top: 100px;
-    text-align: left;
+    text-align: center;
     padding: 50px;
     background-color: #f8f9fa;
 }
@@ -90,14 +96,113 @@ header{
 }
 
 .competition-content p {
-    font-size: 1.2rem;
     max-width: 800px;
     margin: 0 auto;
+}
+
+.competition-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap:3rem;
+    max-width: 1300px;
+    margin-left: 2rem;
+    margin-top: 4rem;
+}
+.competition-image{
+    flex:1
+}
+.competition-image img{
+    width: 100%;
+    height: auto;
+}
+.competition-text{
+    flex:1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: none;
+}
+.competition-text h1 {
+    font-size: 28px;
+    color: #222;
+    margin-bottom:1rem;
+}
+.competition-text p {
+    text-align: left;
+    font-size: 18px;
+    margin:0;
+    line-height: 36px;
+}
+.competition-text p,p{
+    margin-bottom: 0.5rem;
+}
+.competition-text .theme{
+    margin-top: -0.5rem;
+}
+
+.competition-text p strong{
+    font-weight: bold;
+}
+.competition-text p br{
+    display: inline;
+}
+
+.accordion h2{
+    font-size: 2.5rem;
+    margin-top: 5rem;
+    text-align: center;
+    color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 2rem;
+}
+
+.accordion {
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    color: white;
+    overflow: hidden;
+    width: 100%;
+}
+
+.accordion-header {
+    background: var(--main-color);
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 16px;
+}
+
+.accordion-header i {
+    font-size: 1.5rem; 
+}
+
+.accordion-content {
+    background: #f8f9fa ;
+    color: var(--text-color);
+    padding: 5px;
+    display: none;
+    text-align: left;
+    line-height: 1.75rem;
+    margin-bottom: 1rem;
+    font-size: 16px;
 }
 
 .register-btn {
     margin-top: 3rem;
     text-align: center;
+    font-size: 1.25rem;
 }
 
 .register-btn a {
@@ -113,55 +218,6 @@ header{
 .register-btn a:hover {
     letter-spacing: 2px;
     transition: 0.2s;
-}
-.competition-content{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 4rem;
-    max-width: 1300px;
-    margin-left: 3rem;
-    margin-top: 4rem;
-}
-.competition-image{
-    flex:1
-}
-.competition-image img{
-    width: 100%;
-    height: auto;
-}
-.competition-text{
-    flex:1.2;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    max-width: none;
-}
-.competition-text h1 {
-    font-size: 2rem;
-    color: #222;
-    margin-bottom: 1rem;
-}
-.competition-text p {
-    text-align: left;
-    font-size: 20px;
-    margin:0;
-    line-height: 2rem;
-}
-.competition-text p strong{
-    font-weight: bold;
-}
-.competition-text p br{
-    display: inline;
-}
-
-#list{
-    text-align: left;
-    line-height: 2rem;
-    font-size: 18px;
-}
-#remark{
-    font-size: 14px;
 }
 .sponsor-content{
     display: flex;
@@ -181,17 +237,6 @@ header{
     text-align: left;
     margin-left: 3rem;
 }
-
-.organize, .collab{
-    font-size: 18px;
-    font-weight: bold;
-}
-.sponsor-img{
-    gap: 60px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .footer-logos {
     text-align: center; /* Center the image */
     padding: 5px 0;

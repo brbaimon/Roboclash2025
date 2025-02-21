@@ -56,13 +56,19 @@ header .shadow{
 .logo {
     font-size: 1.1rem;
     font-weight: 600;
-    color: var(--main-color)
+    color: var(--main-color);
+    height:2.5rem;
+    margin-left: -3rem;
+}
+.logo img{
+    height: 120px;
+    margin-top:-2.75rem;
 }
 .navbar{
     display: flex;
 }
 .navbar a{
-    font-size: 1rem;
+    font-size: 16px;
     padding: 10px 20px;
     color: var(--text-color);
     font-weight: 500;
@@ -77,6 +83,14 @@ header .shadow{
     z-index: 10001;
     display: none;
 }
+.home-text-box {
+    background: rgba(255, 255, 255, 0.826); 
+    padding: 25px; 
+    border-radius: 10px; 
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    margin-left: -2rem;
+}
 .home{
     position: relative;
     width: 100%;
@@ -85,10 +99,13 @@ header .shadow{
     grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
     align-items: center;
     gap: 1.5rem;
-    background-color: rgb(233, 224, 232);
+    background-image: url('images/robo2024_1.jpg');
+    background-size: cover; 
+    background-position: center; 
 }
+
 .home-text h1{
-    font-size: 3.4rem;
+    font-size: 3rem;
 }
 .home-text .title{
     color: var(--main-color)
@@ -121,8 +138,8 @@ header .shadow{
 }
 /* About Section */
 .about {
-    padding: 50px 10%;
-    background-color: #ffffff; /* Light background for contrast */
+    padding: 45px 10%;
+    background-color: #f8f9fa; /* Light background for contrast */
 }
 
 .about-title {
@@ -198,7 +215,9 @@ header .shadow{
     background-color: #f9f9f9;
     text-align: center;
 }
-
+strong{
+    color: var(--main-color);
+}
 .contact-us {
     max-width: 800px;
     margin: 0 auto;

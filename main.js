@@ -16,3 +16,15 @@ window.onscroll = () => {
     // Add shadow to header on scroll
     header.classList.toggle('shadow', window.scrollY > 0);
 }
+function toggleAccordion(header) {
+    const content = header.nextElementSibling;
+    const icon = header.querySelector("i");
+
+    if (content.style.display === "block") {
+        content.style.display = "none";
+        icon.classList.remove("active");
+    } else {
+        content.style.display = "block";
+        icon.classList.add("active");
+    }
+}

@@ -10,7 +10,9 @@
 <body>
     <!--Header-->
     <header>
-        <a href="index.html" class="logo"></a>
+        <div class="logo">
+            <img src="images/Words on bottom.png" alt="">
+        </div>
         <div class="bx bx-menu" id="menu-icon"></div>
         <ul class="navbar">
             <li><a href="index.html#home">Home</a></li>
@@ -33,20 +35,86 @@
             <div class="competition-text">
                 <h1>Competition Details</h1>
                 <p>
-                    <strong>Date:</strong> 8 - 10 May 2025<br>
-                    <strong>Time:</strong> 08:30 - 19:00<br>
-                    <strong>Location:</strong> Singapore University of Technology and Design (SUTD)
+                    <p><strong>Date:</strong> 8 - 10 May 2025<br></p>
+                    <p><strong>Time:</strong> 08:30 - 19:00<br></p>
+                    <p><strong>Location:</strong> Singapore University of Technology and Design (SUTD)<br></p>
+                    <p><strong>Team Composition:</strong> 2-6 participants with <strong>one</strong> accompanying teacher-in-charge (exclude the university category)<br></p>
+                    <p><strong>Hardware:</strong> Cocorobo kits<br></p>
+                    <p><strong>Software:</strong> CocoBlockly<br></p>
                 </p>
-                <p>
+                <p class="theme">
                     <strong>Theme Description: </strong><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In recent years, the intensification of climate change has resulted in increasingly
                     frequent and destructive natural disasters. These supernatural events pose a significant 
                     threat to the stability of our natural and man-made systems.
                 </p>
                 <p>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Situated in a flood-struck city, RoboClash: Rescue Rally will see teams race against the 
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Situated in a flood-struck city, <strong>RoboClash: Rescue Rally</strong> will see teams race against the 
                     clock to clear debris and evacuate citizens. Beware of the terrain's lingering and tough 
                     challenges!
                 </p>
+                <p><strong>Check out <a href="rules.html">Rules</a> for more details</strong></p>
+            </div>
+        </div>
+        <!--Accordian section-->
+        <div class="accordion">
+            <h2>Types of Competition</h2>
+            <div class="accordion-item">
+                <!--Junior-->
+                <div class="accordion-header" onclick="toggleAccordion(this)" id="junior">
+                    Junior Category
+                    <i class='bx bx-chevron-down'></i>
+                </div>
+                <div class="accordion-content">
+                    <ul>
+                        <li></li><strong>Competition dates:</strong> 10 May 2025</li>
+                        <li><strong>Workshop dates:</strong> 15 & 22 March 2025 (10 am - 5 pm)</li>
+                        <li><strong>Kit dristribution:</strong> Kits will be distributed one month before the competition date</li>
+                    </ul>
+                </div>
+                <!--Secondary-->
+                <div class="accordion-header" onclick="toggleAccordion(this)" id="middle-school">
+                    Middle school Category
+                    <i class='bx bx-chevron-down'></i>
+                </div>
+                <div class="accordion-content">
+                    <ul>
+                        <li></li><strong>Competition dates:</strong> 10 May 2025</li>
+                        <li><strong>Workshop dates:</strong> 29 March & 5 April 2025 (10 am - 5 pm)</li>
+                        <li><strong>Kit dristribution:</strong> Kits will be distributed one month before the competition date</li>
+                    </ul>
+                </div>
+
+                <!--Pre-Uni-->
+                <div class="accordion-header" onclick="toggleAccordion(this)" id="middle-school">
+                    Pre-University Category
+                    <i class='bx bx-chevron-down'></i>
+                </div>
+                <div class="accordion-content">
+                    <ul>
+                        <li></li><strong>Competition dates:</strong> 9 May 2025</li>
+                        <li><strong>Workshop dates:</strong> No workshops</li>
+                        <li><strong>Kit dristribution:</strong> Kits will be distributed one month before the competition date</li>
+                    </ul>
+                </div>
+
+                <!--University-->
+                <div class="accordion-header" onclick="toggleAccordion(this)" id="middle-school">
+                    University Category Hackathon
+                    <i class='bx bx-chevron-down'></i>
+                </div>
+                <div class="accordion-content">
+                    <ul>
+                        <li></li><strong>Competition dates:</strong> 9 May 2025</li>
+                        <li><strong>Workshop dates:</strong> 5-6 May 2025</li>
+                        <li><strong>Supervised building time:</strong> 7-8 May 2025</li>
+                        <li><strong>Kit dristribution:</strong> Kits will be distributed one month before the competition date</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+                
+
+            <!-- <div>Competition Categories</div>
                 <p><strong>Competition Categories</strong></p>
                 <div id="list">
                     <li><strong>1. Junior</strong>
@@ -73,8 +141,7 @@
                     </li>
                 </div>
                 <p id="remark">*Remark: There is no workshop for tertiary and university catagories</p>
-            </div>
-        </div>
+            </div> -->
         <div class="register-btn">
             <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=drd2NJDpck-5UGJImDFiPZ0x4lBoJ0FJp4ph0q2ywpVUMkFORkRLVkg1S09RSVRDVUFVQTZUTE00WS4u" class="register">Register Now</a>
         </div>

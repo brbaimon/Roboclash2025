@@ -496,8 +496,8 @@ footer{
 @media (max-width: 480px) {
     .logo img{
         zoom: 0.8;
-        max-width: 100px;
-        margin-top: -2.5rem;
+        max-width: 120px;
+        margin-top: -2.25rem;
         margin-left: 2rem;
     }
     .organized-text p, .collab-text p {

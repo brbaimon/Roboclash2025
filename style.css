@@ -98,10 +98,10 @@ header .shadow{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
     align-items: center;
-    gap: 1.5rem;
-    background-image: url('images/robo2024_1.jpg');
+    gap: 2rem;
+    background-image: url('images/robo2024_7.JPG');
     background-size: cover; 
-    background-position: center; 
+    background-position: bottom;
 }
 
 .home-text h1{
@@ -129,7 +129,8 @@ header .shadow{
     background: var(--main-color);
     padding: 0.8rem 2rem;
     color: white;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 20px;
 }
 .register:hover{
     background: var(--main-color);
@@ -210,10 +211,71 @@ header .shadow{
     letter-spacing: 2px;
     transition: 0.2s;
 }
+
+.sponsor {
+    margin-top: 5rem;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.sponsor-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 1.5rem;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+.sponsor-header h1{
+    font-size: 2rem;
+    color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+    display: inline-block;
+    padding-bottom: 3px;
+    margin-bottom: 1.5rem;
+}
+
+.organized-text p, .collab-text p{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.organized img{
+   width: 200px;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   align-items: center;
+
+}
+
+.collab {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    gap: 8rem;
+}
+.collab img {
+    max-height: 100px;
+    margin-top: 0.5rem;
+}
+.sutd{
+    width: 200px;
+}
+.cocorobo{
+    position: relative;
+    width: 250px;
+    top:-1rem;
+}
+.polymate{
+    width: 120px;
+}
+
 .contact {
     padding: 50px 0;
     background-color: #f9f9f9;
     text-align: center;
+    margin-top: 5rem;
 }
 strong{
     color: var(--main-color);
@@ -225,6 +287,7 @@ strong{
     background: #fff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+
 }
 
 .contact-us h2 {
@@ -259,54 +322,6 @@ strong{
     color: var(--main-color);
 }
 
-/* Map Container */
-.map-container {
-    width: 100%;
-    max-width: 600px;
-    height: 350px;
-    margin: 20px auto;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-}
-
-.map-container iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-}
-.heading h1{
-    text-align: center;
-    font-size: 36px;
-}
-.sponsor-content{
-    display: flex;
-    width: 100%;
-    padding:5px 0;
-    background-color: rgb(255, 255, 255);
-}
-
-.sponsor-left{
-    flex:1.5;
-    text-align: left;
-    margin-left: 5rem;
-}
-
-.sponsor-right{
-    flex:2.5;
-    text-align: left;
-    margin-left: 3rem;
-}
-
-.organize, .collab{
-    font-size: 18px;
-    font-weight: bold;
-}
-.sponsor-img{
-    gap: 60px;
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .footer-logos {
     text-align: center; /* Center the image */

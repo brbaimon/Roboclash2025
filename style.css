@@ -340,6 +340,7 @@ footer{
 .copyright{
     border-right: 2px solid white;
     padding-right: 0.5rem;
+
 }
 .footer a{
     color: white;
@@ -495,7 +496,6 @@ footer{
 }
 @media (max-width: 480px) {
     .logo img{
-        max-width: 80%;
         zoom: 0.8;
         margin-top:-2.5rem;
         margin-left: 1.75rem;

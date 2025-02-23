@@ -219,6 +219,7 @@ header{
     letter-spacing: 2px;
     transition: 0.2s;
 }
+/* footer */
 footer{
     background-color: var(--main-color);
     color: white;
@@ -237,6 +238,7 @@ footer{
 .copyright{
     border-right: 2px solid white;
     padding-right: 0.5rem;
+
 }
 .footer a{
     color: white;
@@ -317,6 +319,11 @@ footer{
     .competition-title h1 {
         font-size: 1.5rem;
         
+    }
+    .competition-image img{
+        width: 100%;
+        height: auto;
+        margin-left: -1rem;
     }
     .competition-text h1{
         margin-left: -3rem;

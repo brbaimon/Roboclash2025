@@ -302,7 +302,8 @@ strong{
     color: var(--text-color);
     margin: 10px 0;
     display: flex;
-    margin-left: 4rem;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contact-us a {
@@ -494,15 +495,18 @@ footer{
     }
 }
 @media (max-width: 480px) {
+    .logo img{
+        max-width: 80%;
+        zoom: 0.8;
+        margin-top:-2.5rem;
+        margin-left: 1.75rem;
+    }
     .organized-text p, .collab-text p {
         font-size: 18px;
     }
-
     .organized img, .sutd, .cocorobo, .polymate {
-        width: 70%;
         max-width: 150px;
     }
-
 }
 @media (max-width: 350px){
     .home-text h1{

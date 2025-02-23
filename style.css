@@ -302,8 +302,6 @@ strong{
     color: var(--text-color);
     margin: 10px 0;
     display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .contact-us a {
@@ -323,6 +321,7 @@ strong{
     color: var(--main-color);
 }
 
+/* footer */
 footer{
     background-color: var(--main-color);
     color: white;
@@ -506,6 +505,12 @@ footer{
     }
     .organized img, .sutd, .cocorobo, .polymate {
         max-width: 150px;
+    }
+    .contact-us p {
+        font-size: 18px;
+        color: var(--text-color);
+        margin: 10px 0;
+        display: flex;
     }
 }
 @media (max-width: 350px){

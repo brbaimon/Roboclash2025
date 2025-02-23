@@ -308,12 +308,18 @@ footer{
 }
 
 @media (max-width: 480px) {
+    .logo img{
+        max-width: 80%;
+        zoom: 0.8;
+        margin-top:-2.5rem;
+        margin-left: 1.75rem;
+    }
     .competition-title h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .competition-content p, #list {
-        font-size: 0.9rem;
+        font-size: 1.5rem;
     }
 
     .register-btn a {

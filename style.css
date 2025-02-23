@@ -259,9 +259,6 @@ header .shadow{
     max-height: 100px;
     margin-top: 0.5rem;
 }
-.sutd{
-    width: 200px;
-}
 .cocorobo{
     position: relative;
     width: 250px;
@@ -270,7 +267,9 @@ header .shadow{
 .polymate{
     width: 120px;
 }
-
+.sutd{
+    width: 200px;
+}
 .contact {
     padding: 50px 0;
     background-color: #f9f9f9;
@@ -497,8 +496,9 @@ footer{
 @media (max-width: 480px) {
     .logo img{
         zoom: 0.8;
-        margin-top:-2.5rem;
-        margin-left: 1.75rem;
+        max-width: fit-content;
+        margin-top: -2.5rem;
+        margin-left: 2rem;
     }
     .organized-text p, .collab-text p {
         font-size: 18px;

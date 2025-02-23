@@ -156,9 +156,9 @@ footer{
 
 @media (max-width: 480px) {
     .logo img{
-        max-width: 80%;
         zoom: 0.8;
-        margin-top:-2.5rem;
-        margin-left: 1.75rem;
+        max-width: fit-content;
+        margin-top: -2.5rem;
+        margin-left: 2rem;
     }
 }

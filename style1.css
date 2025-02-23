@@ -81,7 +81,7 @@ header{
     display: none
 }
 .competition {
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
     padding: 50px;
     background-color: #f8f9fa;
@@ -315,11 +315,15 @@ footer{
         margin-left: 1.75rem;
     }
     .competition-title h1 {
-        font-size: 2rem;
-    }
-
-    .competition-content p, #list {
         font-size: 1.5rem;
+        
+    }
+    .competition-text h1{
+        margin-left: -3rem;
+    }
+    .competition-content p, #list {
+        font-size: 1rem;
+        margin-left: -3rem;
     }
 
     .register-btn a {

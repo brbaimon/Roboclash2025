@@ -51,9 +51,6 @@ header{
     padding: 18px 5%;
     transition: 0.2s;
 }
-header .shadow{
-    box-shadow: 0 0 4px rgb(14 55 44 / 15%); 
-}
 .logo {
     font-size: 1.1rem;
     font-weight: 600;
@@ -99,42 +96,74 @@ iframe{
     width: 100%;
     height: 1000px;
 }
-.sponsor-content{
+footer{
+    background-color: var(--main-color);
+    color: white;
+    padding: 2rem;
     display: flex;
-    width: 100%;
-    padding:5px 0;
-    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 1rem;
 }
-
-.sponsor-left{
-    flex:1.5;
-    text-align: left;
-    margin-left: 5rem;
-}
-
-.sponsor-right{
-    flex:2.5;
-    text-align: left;
-    margin-left: 3rem;
-}
-
-.organize, .collab{
-    font-size: 18px;
-    font-weight: bold;
-}
-.sponsor-img{
-    gap: 60px;
+.footer-content{
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+}
+.copyright{
+    border-right: 2px solid white;
+    padding-right: 0.5rem;
+}
+.footer a{
+    color: white;
+    padding-left: 0.5rem;
 }
 
-.footer-logos {
-    text-align: center; /* Center the image */
-    padding: 5px 0;
+@media (max-width: 768px) {
+    header {
+        padding: 11px 4%;
+    }
+    #menu-icon {
+        display: initial;
+    }
+    .navbar{
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: white;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+        flex-direction: column;
+        text-align: left;
+    }
+    .navbar.active {
+        display: flex;
+    }
+    .navbar a {
+        padding: 1rem;
+        border-left: 2px solid var(--main-color);
+        margin: 1rem;
+        display: block;
+    }
+    .navbar a:hover {
+        color: white;
+        background: var(--main-color);
+        border: none;
+    }
 }
 
-.footer-logos img {
-    max-width: 80%;  /* Adjust width relative to screen */
-    height: auto;     /* Maintain aspect ratio */
-    max-height: 150px; /* Limit height */
+@media (max-width: 480px) {
+    .competition-title h1 {
+        font-size: 1.5rem;
+    }
+
+    .competition-content p, #list {
+        font-size: 0.9rem;
+    }
+
+    .register-btn a {
+        padding: 6px 12px;
+    }
 }

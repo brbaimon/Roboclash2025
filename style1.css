@@ -219,34 +219,30 @@ header{
     letter-spacing: 2px;
     transition: 0.2s;
 }
-.sponsor-content{
+footer{
+    background-color: var(--main-color);
+    color: white;
+    padding: 2rem;
     display: flex;
-    width: 100%;
-    padding:5px 0;
-    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 1rem;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+}
+.copyright{
+    border-right: 2px solid white;
+    padding-right: 0.5rem;
+}
+.footer a{
+    color: white;
+    padding-left: 0.5rem;
 }
 
-.sponsor-left{
-    flex:1.5;
-    text-align: left;
-    margin-left: 5rem;
-}
-
-.sponsor-right{
-    flex:2.5;
-    text-align: left;
-    margin-left: 3rem;
-}
-.footer-logos {
-    text-align: center; /* Center the image */
-    padding: 5px 0;
-}
-
-.footer-logos img {
-    max-width: 80%;  /* Adjust width relative to screen */
-    height: auto;     /* Maintain aspect ratio */
-    max-height: 150px; /* Limit height */
-}
 /* Add media queries for responsiveness */
 @media (max-width: 1200px) {
     .competition-content {

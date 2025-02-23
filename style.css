@@ -322,16 +322,9 @@ strong{
     color: var(--main-color);
 }
 
-
-.footer-logos {
-    text-align: center; /* Center the image */
-    padding: 5px 0;
-}
-
-.footer-logos img {
-    max-width: 80%;  /* Adjust width relative to screen */
-    height: auto;     /* Maintain aspect ratio */
-    max-height: 150px; /* Limit height */
+footer{
+    background-color: var(--main-color);
+    color: white;
 }
 
 /*Making responsive*/

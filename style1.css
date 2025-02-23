@@ -238,11 +238,12 @@ footer{
 .copyright{
     border-right: 2px solid white;
     padding-right: 0.5rem;
-
+    margin: 0;
 }
 .footer a{
     color: white;
     padding-left: 0.5rem;
+    margin: 0;
 }
 
 /* Add media queries for responsiveness */

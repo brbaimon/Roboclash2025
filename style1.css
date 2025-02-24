@@ -147,6 +147,12 @@ header{
 .competition-text p br{
     display: inline;
 }
+.competition .condition{
+    font-size: 14px;
+}
+a{
+    color: var(--main-color);
+}
 
 .accordion h2{
     font-size: 2.5rem;

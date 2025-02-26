@@ -118,6 +118,7 @@ footer{
 .footer a{
     color: white;
     padding-left: 0.5rem;
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {

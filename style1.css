@@ -142,7 +142,7 @@ header{
 }
 
 .competition-text p strong{
-    font-weight: bold;
+    font-weight: bold;;
 }
 .competition-text p br{
     display: inline;
@@ -152,6 +152,7 @@ header{
 }
 a{
     color: var(--main-color);
+    text-decoration: underline;
 }
 .game-description{
     display: flex;

@@ -150,7 +150,7 @@ header{
 .competition .condition{
     font-size: 14px;
 }
-a{
+.competition-text a{
     color: var(--main-color);
     text-decoration: underline;
 }
@@ -223,6 +223,11 @@ div iframe{
     line-height: 1.75rem;
     margin-bottom: 1rem;
     font-size: 16px;
+}
+
+.accordion-content a{
+    color: var(--main-color);
+    text-decoration: underline;
 }
 
 .register-btn {

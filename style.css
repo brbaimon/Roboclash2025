@@ -9,6 +9,8 @@
     box-sizing:border-box ;
     font-family: "Poppins", serif;
 }
+
+
 :root{
     --main-color:rgb(60, 7, 113);
     --text-color:black;

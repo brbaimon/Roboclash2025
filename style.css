@@ -221,7 +221,7 @@ header .shadow{
     text-align: center;
 }
 .sponsor-content {
-    max-width: 1000px;
+    max-width: 1400px;
     margin: 0 auto;
     background: #fff;
     padding: 1.5rem;
@@ -274,8 +274,7 @@ header .shadow{
     width: 200px;
 }
 .istd{
-    width: 400px;
-    margin-top: 1.5rem;
+    width: 350px;
 } 
 .contact {
     padding: 50px 0;

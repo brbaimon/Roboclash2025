@@ -121,6 +121,14 @@ footer{
     text-decoration: underline;
 }
 
+@media (max-width: 1500px){
+    .logo img{
+        zoom: 0.8;
+        width: auto;
+        margin-top: -2.1rem;
+        margin-left: 1rem;
+    }
+}
 @media (max-width: 768px) {
     header {
         padding: 11px 4%;

@@ -384,7 +384,6 @@ footer{
 @media (max-width:881px){
     .logo img{
         zoom: 0.8;
-        max-width: 120px;
         margin-top: -2.1rem;
         margin-left: 2rem;
     }

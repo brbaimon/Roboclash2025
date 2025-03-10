@@ -382,13 +382,6 @@ footer{
     
 }
 @media (max-width:881px){
-    .logo {
-        font-size: 1.1rem;
-        font-weight: 600;
-        color: var(--main-color);
-        height:auto;
-        margin-left: -3rem;
-    }
     .logo img{
         zoom: 0.8;
         margin-top: -2.1rem;
@@ -422,6 +415,21 @@ footer{
     .past-year a {
         display: block;
         margin: 10px auto;
+    }
+    .sponsor {
+        margin-top: 3rem;
+        padding: 30px 0;
+    }
+
+    .organized-text p, .collab-text p, .support-text p {
+        font-size: 20px;
+    }
+
+    .collab {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        padding-top: 20px;
     }
 }
 
@@ -502,9 +510,6 @@ footer{
         align-items: center;
         gap: 2rem;
         padding-top: 20px;
-    }
-    .cocorobo {
-        top: 0;
     }
 }
 @media (max-width: 618px){

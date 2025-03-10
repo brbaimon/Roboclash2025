@@ -372,8 +372,7 @@ footer{
         margin-left: -3rem;
     }
     div iframe{
-        width: 300px;
-        height: auto;
+        zoom: 0.5;
     }
     .register-btn a {
         padding: 6px 12px;

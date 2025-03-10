@@ -359,6 +359,11 @@ footer{
     header{
         padding: 18px 4%;
     }
+    .logo img{
+        zoom: 0.8;
+        margin-top: -2.1rem;
+        margin-left: 2rem;
+    }
     section{
         padding: 50px 4%;
     }
@@ -382,11 +387,6 @@ footer{
     
 }
 @media (max-width:881px){
-    .logo img{
-        zoom: 0.8;
-        margin-top: -2.1rem;
-        margin-left: 2rem;
-    }
     .home-text span{
         font-size: 1.1rem;
     }

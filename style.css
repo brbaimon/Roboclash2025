@@ -361,6 +361,10 @@ footer{
     section{
         padding: 50px 4%;
     }
+    .logo {
+        height:auto;
+        margin-left: -3rem;
+    }
     .logo img{
         zoom: 0.8;
         margin-top: -2.1rem;

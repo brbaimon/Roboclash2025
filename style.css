@@ -265,7 +265,6 @@ header .shadow{
 .cocorobo{
     position: relative;
     width: 250px;
-    top:-1rem;
 }
 .polymate{
     width: 120px;
@@ -381,7 +380,6 @@ footer{
     }
     .sponsor {
         margin-top: 3rem;
-        padding: 30px 0;
     }
     .organized-text p, .collab-text p, .support-text p {
         font-size: 20px;
@@ -390,8 +388,8 @@ footer{
     .collab {
         flex-direction: column;
         align-items: center;
-        gap: 2rem;
-        padding-top: 20px;
+        gap: 1rem;
+        padding-top: 3rem;
     }
     
 }
